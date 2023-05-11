@@ -1,0 +1,18 @@
+body
+{background-image:url(https://img.freepik.com/vector-premium/fondo-diseno-hojas-tropicales_23-2148540579.jpg?w=2000)}
+body{
+    grid-template-rows: 50% 50%;
+
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: goldenrod;
+    float: right; 
+    
+}
+h2{
+    text-decoration-color: darkgoldenrod;
+    font-style: italic; 
+
+
+}
