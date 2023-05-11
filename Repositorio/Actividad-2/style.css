@@ -2,6 +2,7 @@ body
 {background-image:url(https://img.freepik.com/vector-premium/fondo-diseno-hojas-tropicales_23-2148540579.jpg?w=2000)}
 body{
     grid-template-rows: 50% 50%;
+    
 
 }
 h1{
@@ -11,8 +12,17 @@ h1{
     
 }
 h2{
-    text-decoration-color: darkgoldenrod;
     font-style: italic; 
+
+}
+
+footer{ 
+
+}
+
+#fragmento{ border-radius: 5%;
+    height: 100 px;
+    width: 100 px;
 
 
 }
