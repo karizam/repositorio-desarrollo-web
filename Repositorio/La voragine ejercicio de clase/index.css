@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: 'Dosis', sans-serif;
+}
+main {
+    display: grid; 
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 50%;
+}
+p {
+    margin-top: 10px;
+    font-size: 1em;
+    margin-right: 100px;
+}
+a{
+    font-size: 0.8em;
+    color: maroon;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: end;
+    color: darkgoldenrod;
+}
+.body { 
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://img.freepik.com/vector-premium/fondo-diseno-hojas-tropicales_23-2148540579.jpg?w=2000);
+
+}
+.imagen-fragmento { 
+    height: 100px;
+    width: 130px;
+}
+.imagen-pintura {
+    height: 200px;
+    width: 140px;
+
+}
+.contenedor-imagen-pintura {
+    display: flex;
+    flex-direction: column;
+}
+#seccion-1{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#seccion-3{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#subtitulo-seccion-2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#contenedor-imagenes-seccion-2 {
+    display: flex;
+    justify-content: space-around;
+}
+#contenedor-imagenes-seccion-4 {
+    display: flex;
+    justify-content: space-evenly;
+}
+#nombre-autor{
+    margin-left: 30px;
+}
